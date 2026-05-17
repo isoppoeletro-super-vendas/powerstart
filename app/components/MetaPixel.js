@@ -16,7 +16,7 @@ export default function MetaPixel() {
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
 
-          fbq('init', 'SEU_PIXEL_ID');
+          fbq('init', '1411309543482184');
           fbq('track', 'PageView');
         `}
       </Script>
