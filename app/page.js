@@ -1,6 +1,3 @@
-# page.js
-
-```javascript
 "use client";
 
 import Image from "next/image";
@@ -69,7 +66,7 @@ export default function Home() {
               target="_blank"
               className="inline-block mt-12 bg-red-600 hover:bg-red-700 transition-all duration-300 px-12 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl"
             >
-              COMPRAR AGORA
+              VER OFERTA NO MERCADO LIVRE
             </a>
 
           </div>
@@ -82,7 +79,7 @@ export default function Home() {
               height={700}
               alt="Auxiliar de Partida"
               priority
-              className="w-full max-w-2xl object-contain"
+              className="w-full max-w-2xl object-contain drop-shadow-[0_0_40px_rgba(255,0,0,0.25)]"
             />
           </div>
 
@@ -202,7 +199,7 @@ export default function Home() {
 
           <div>
             <p className="text-xl mb-5">
-              Aproveite a oferta disponível hoje.
+              Oferta promocional disponível por tempo limitado.
             </p>
 
             <a
@@ -225,7 +222,7 @@ export default function Home() {
           target="_blank"
           className="block w-full bg-red-600 hover:bg-red-700 text-center py-4 rounded-2xl text-xl font-bold"
         >
-          COMPRAR AGORA
+          VER OFERTA NO MERCADO LIVRE
         </a>
       </div>
 
