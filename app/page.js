@@ -38,8 +38,7 @@ export default function Home() {
             </h1>
 
             <p className="text-zinc-300 text-xl mt-8 max-w-xl leading-relaxed">
-              Compressor portátil + auxiliar de partida + power bank +
-              iluminação LED em um único equipamento.
+              Compressor + partida auxiliar + power bank + LED em um único equipamento.
             </p>
 
             <div className="mt-10 space-y-5 text-lg">
@@ -64,10 +63,14 @@ export default function Home() {
             <a
               href={LINK_AFILIADO}
               target="_blank"
-              className="inline-block mt-12 bg-red-600 hover:bg-red-700 transition-all duration-300 px-12 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl"
+              className="inline-block mt-12 bg-red-600 hover:bg-red-700 transition-all duration-300 px-12 py-5 rounded-2xl text-2xl font-extrabold shadow-[0_0_25px_rgba(255,0,0,0.45)]"
             >
-              VER OFERTA NO MERCADO LIVRE
+              VER PREÇO PROMOCIONAL
             </a>
+
+            <p className="text-zinc-400 text-sm mt-5">
+              Produto com envio rápido pelo Mercado Livre.
+            </p>
 
           </div>
 
@@ -198,8 +201,12 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-xl mb-5">
-              Oferta promocional disponível por tempo limitado.
+            <p className="text-xl mb-3 font-semibold">
+              Oferta promocional disponível hoje.
+            </p>
+
+            <p className="text-sm opacity-80 mb-5">
+              Estoque limitado.
             </p>
 
             <a
@@ -207,7 +214,7 @@ export default function Home() {
               target="_blank"
               className="inline-block bg-black hover:bg-zinc-900 transition-all duration-300 px-10 py-5 rounded-2xl text-xl font-extrabold"
             >
-              VER OFERTA
+              VER PREÇO PROMOCIONAL
             </a>
           </div>
 
@@ -220,9 +227,9 @@ export default function Home() {
         <a
           href={LINK_AFILIADO}
           target="_blank"
-          className="block w-full bg-red-600 hover:bg-red-700 text-center py-4 rounded-2xl text-xl font-bold"
+          className="block w-full bg-red-600 hover:bg-red-700 text-center py-4 rounded-2xl text-xl font-bold shadow-[0_0_20px_rgba(255,0,0,0.4)]"
         >
-          VER OFERTA NO MERCADO LIVRE
+          VER PREÇO PROMOCIONAL
         </a>
       </div>
 
