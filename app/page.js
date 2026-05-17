@@ -26,9 +26,9 @@ export default function Home() {
             </span>
 
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mt-6">
-              Nunca Mais Fique Parado
-              <span className="text-red-500 block">
-                Por Bateria Fraca
+             Seu Carro Parou?
+             <span className="text-red-500 block">
+                Resolva Em Segundos
               </span>
             </h1>
 
@@ -50,21 +50,31 @@ export default function Home() {
               </div>
 
               <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-red-500" />
-                <p>Power bank USB integrado</p>
-              </div>
+  <FaCheckCircle className="text-red-500" />
+  <p>Power bank USB integrado</p>
+</div>
 
-            </div>
+</div>
 
-            <a
-              href={LINK_AFILIADO}
-              target="_blank"
-              className="inline-block mt-10 bg-red-600 hover:bg-red-700 transition-all duration-300 px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl"
-            >
-              COMPRAR AGORA
-            </a>
+<a
+  href={LINK_AFILIADO}
+  target="_blank"
+  className="inline-block mt-10 bg-red-600 hover:bg-red-700 transition-all duration-300 px-10 py-5 rounded-2xl text-2xl font-extrabold shadow-2xl"
+>
+  COMPRAR AGORA
+</a>
 
-          </div>
+</div>
+
+<div className="flex justify-center">
+              <a
+                href={LINK_AFILIADO}
+                target="_blank"
+                className="block w-full bg-red-600 hover:bg-red-700 text-center py-4 rounded-2xl text-xl font-bold"
+               >
+                COMPRAR AGORA
+              </a>
+           </div>
 
           <div className="flex justify-center">
             <Image
