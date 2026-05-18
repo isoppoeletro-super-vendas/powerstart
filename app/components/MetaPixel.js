@@ -33,7 +33,7 @@ export default function MetaPixel() {
           height="1"
           width="1"
           style={{ display: "none" }}
-          src="https://www.facebook.com/tr?id=2176391223196651&ev=PageView&noscript=1"
+
           alt=""
         />
       </noscript>
